@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <Button 
+        android:id="@+id/zhexian_bt"
+      	android:layout_weight="1"
+      	android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="扇形"
+  		android:onClick="doClick"
+        />
+    <Button 
+        android:id="@+id/shanxing_bt"
+      	android:layout_weight="1"
+      	android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="折线"
+        android:onClick="doClick"
+        />
+     <Button 
+        android:id="@+id/zhu_bt"
+      	android:layout_weight="1"
+      	android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="柱状"
+        android:onClick="doClick"
+        />
+
+</LinearLayout>
