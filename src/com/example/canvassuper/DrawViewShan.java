@@ -32,7 +32,7 @@ public class DrawViewShan extends View {
 	}
 	public DrawViewShan(Context context, AttributeSet attrs) {
 		this(context, attrs,0);
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public DrawViewShan(Context context) {
@@ -43,6 +43,9 @@ public class DrawViewShan extends View {
 	protected void onDraw(Canvas canvas) {
 		new Timer().schedule(new TimerTask() {
 			
+			
+			
+			//llllllllllllllllllllll
 			@Override
 			public void run() {
 				// TODO Auto-generated method stub
